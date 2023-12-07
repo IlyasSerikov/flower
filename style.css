@@ -1,0 +1,371 @@
+html{
+   scroll-behavior: smooth;
+}
+
+
+body{
+   color: #000;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+   padding: 0;
+   background-color: #D8AEDC;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+.container{
+   max-width: 100%;
+   margin: 0 auto;
+}
+
+section{
+   margin-bottom: 40px;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-weight: 700;
+   line-height: 1.4em;
+   margin: 0;
+}
+
+.header .container{
+   max-width: 900px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0;
+}
+
+.menu-list ul{
+   list-style: none;
+   display: flex;
+   gap: 50px;
+}
+
+.menu-item a{
+   text-decoration: none;
+   color: #000;
+}
+
+.main{
+   background-image: url(/img/Rectangle\ 1.png);
+   background-position: center;
+   background-size: cover;
+   padding: 70px;
+}
+
+.main-info{
+   max-width: 400px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.main-title{
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 110%;
+   margin-bottom: 40px;
+}
+
+.main-text{
+   background-color: #F4CBF4;
+   font-size: 20px;
+   max-width: 280px;
+   margin: 40px auto;
+   border-radius: 30px;
+}
+
+.button{
+   display: block;
+   text-decoration: none;
+   margin: 0 auto;
+   padding: 10px;
+   width: 200px;
+   background: #F4CBF4;
+   border-radius: 30px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 20px;
+   letter-spacing: 0.02em;
+   color: #000;
+   transition: background-color .5s;
+}
+
+.button:hover{
+   cursor: pointer;
+   background: #575757;
+}
+
+.main-action{
+   margin-bottom: 180px;
+}
+
+.main-address{
+   max-width: 150px;
+   margin: 0 auto;
+   padding-bottom: 20px;
+}
+
+.mission-box{
+   display: flex;
+}
+
+.mission-img{
+   max-width: 550px;
+}
+
+.mission-info{
+   margin: 0 auto;
+   padding-top: 130px;
+}
+
+.mission-title{
+   font-weight: 400;
+   font-size: 50px;
+   text-align: center;
+   max-width: 300px;
+   margin: 0 auto;
+}
+
+.mission-text{
+   text-align: center;
+   max-width: 600px;
+   line-height: 2.5;
+}
+
+.mission-logo{
+   font-family: 'Pacifico', cursive;
+   position: absolute;
+   bottom: -800px;
+   right: 15px;
+   width: 100px;
+   text-align:right;
+}
+
+.process-info{
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   padding: 50px 0;
+}
+
+.process-one{
+   max-width: 250px;
+   text-align: center;
+   font-weight: 600;
+}
+
+.tochka{
+   font-size: 30px;
+}
+
+.end{
+   background-image: url(/img/Rectangle\ 10.png);
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 60px;
+}
+
+.end-info{
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.end-title{
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 110%;
+   padding-top: 100px;
+   text-align: center;
+}
+
+.end-text{
+   max-width: 400px;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 2.5;
+   padding-bottom: 250px;
+}
+
+.end-thanks{
+   font-family: 'Pacifico', cursive;
+   font-size: 30px;
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+.contacts{
+    padding-top: 30px;
+}
+
+.contacts-box{
+    text-align: center;
+}
+
+.contacts-title{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 110%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contacts-number{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contacts-social-seti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatsapp{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.inst{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 5px;
+}
+
+
+
+
+
+
+@media (max-width: 1199px) {
+    .mission-logo{
+        bottom: -650px;
+        right: 20px;
+    }
+}
+
+/*Medium: 768px-991px*/
+@media (max-width: 991px) {
+    .container{
+        max-width: 720px;
+    }
+    .header .container{
+        max-width: 720px;
+    }
+    .mission-img {
+        max-width: 350px;
+    }
+    .mission-info {
+        padding-top: 30px;
+    }
+}
+
+/*Small: 576px-767px*/
+@media (max-width: 767px) {
+    .container{
+        max-width: 540px;
+    }
+    .header .container{
+        max-width: 540px;
+    }
+    .mission-img {
+        max-width: 250px;
+    }
+    .mission-info {
+        padding-top: 10px;
+    }
+    .main-title {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .main-text {
+        font-size: 16px;
+        max-width: 230px;
+        margin: 30px auto;
+    }
+    .button{
+        padding: 5px;
+        width: 150px;
+        font-size: 18px;
+    }
+    .main-action{
+        margin-bottom: 130px;
+    }
+    section {
+        margin-top: 20px;
+    }
+    body{
+        font-size: 16px;
+    }
+    .mission-title{
+        font-size: 40px;
+    }
+    .mission-text{
+        line-height: 2.5;
+        max-width: 270px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .mission-logo{
+        bottom: -420px;
+        right: 20px;
+    }
+    .process-info{
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .end-title{
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    .end-text{
+        padding-bottom: 150px;
+    }
+}
+
+/*Extra small: 0px (320px) - 575px*/
+@media (max-width: 575px) {
+    .container{
+        padding: 0 15px;
+        margin: auto auto;
+    }
+    .header .container{
+        padding: 0 15px;
+        padding-top: 20px;
+    }
+    .mission-box{
+        flex-direction: column-reverse;
+    }
+    .mission-info{
+        padding-bottom: 40px;
+    }
+    .mission-text{
+        margin: 0 auto;
+    }
+    .mission-img{
+        max-width: 100%;
+    }
+    .mission-logo {
+        display: none;
+    }
+}
